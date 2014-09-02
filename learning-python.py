@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-if True:
-	print ("True")
-else:
-	print ("False")
+a, b = 0, 1
+while b < 1000:
+    print(b)
+    a, b = b, a+b
