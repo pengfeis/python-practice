@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	.\mysite\settings.py	/^ALLOWED_HOSTS = []$/;"	v
+BASE_DIR	.\mysite\settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(__file__))$/;"	v
+Choice	.\polls\admin.py	/^from polls.models import Question, Choice$/;"	i
+Choice	.\polls\models.py	/^class Choice(models.Model):$/;"	c
+Choice	.\polls\views.py	/^from polls.models import Question, Choice$/;"	i
+ChoiceInline	.\polls\admin.py	/^class ChoiceInline(admin.TabularInline):$/;"	c
+DATABASES	.\mysite\settings.py	/^DATABASES = {$/;"	v
+DEBUG	.\mysite\settings.py	/^DEBUG = True$/;"	v
+DetailView	.\polls\views.py	/^class DetailView(generic.DetailView):$/;"	c
+HttpResponse	.\polls\views.py	/^from django.http import HttpResponseRedirect, HttpResponse$/;"	i
+HttpResponseRedirect	.\polls\views.py	/^from django.http import HttpResponseRedirect, HttpResponse$/;"	i
+INSTALLED_APPS	.\mysite\settings.py	/^INSTALLED_APPS = ($/;"	v
+IndexView	.\polls\views.py	/^class IndexView(generic.ListView):$/;"	c
+LANGUAGE_CODE	.\mysite\settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE_CLASSES	.\mysite\settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+Migration	.\polls\migrations\0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Question	.\polls\admin.py	/^from polls.models import Question, Choice$/;"	i
+Question	.\polls\models.py	/^class Question(models.Model):$/;"	c
+Question	.\polls\tests.py	/^from polls.models import Question$/;"	i
+Question	.\polls\views.py	/^from polls.models import Question, Choice$/;"	i
+QuestionAdmin	.\polls\admin.py	/^class QuestionAdmin(admin.ModelAdmin):$/;"	c
+QuestionIndexDetailTests	.\polls\tests.py	/^class QuestionIndexDetailTests(TestCase):$/;"	c
+QuestionMethodTests	.\polls\tests.py	/^class QuestionMethodTests(TestCase):$/;"	c
+QuestionViewTests	.\polls\tests.py	/^class QuestionViewTests(TestCase):$/;"	c
+ROOT_URLCONF	.\mysite\settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	v
+ResultsView	.\polls\views.py	/^class ResultsView(generic.DetailView):$/;"	c
+STATIC_URL	.\mysite\settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATE_DEBUG	.\mysite\settings.py	/^TEMPLATE_DEBUG = True$/;"	v
+TEMPLATE_DIRS	.\mysite\settings.py	/^TEMPLATE_DIRS = [os.path.join(BASE_DIR), 'templates']$/;"	v
+TIME_ZONE	.\mysite\settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TestCase	.\polls\tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	.\mysite\settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	.\mysite\settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	.\mysite\settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	.\mysite\settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	v
+__str__	.\polls\models.py	/^    def __str__(self):$/;"	m	class:Choice	file:
+__str__	.\polls\models.py	/^    def __str__(self):$/;"	m	class:Question	file:
+admin	.\mysite\urls.py	/^from django.contrib import admin$/;"	i
+admin	.\polls\admin.py	/^from django.contrib import admin$/;"	i
+app.name %}Models in the {{ name }} application{% endblocktrans %}	.\templates\admin\index.html	/^            <a href="{{ app.app_url }}" class="section" title="{% blocktrans with name=app.name %}Models in the {{ name }} application{% endblocktrans %}">{{ app.name }}<\/a>$/;"	a
+application	.\mysite\wsgi.py	/^application = get_wsgi_application()$/;"	v
+bases	.\polls\migrations\0001_initial.py	/^            bases=(models.Model,),$/;"	v	class:Migration
+choice_text	.\polls\models.py	/^    choice_text = models.CharField(max_length=200)$/;"	v	class:Choice
+context_object_name	.\polls\views.py	/^    context_object_name = 'latest_question_list'$/;"	v	class:IndexView
+create_question	.\polls\tests.py	/^def create_question(question_text, days):$/;"	f
+datetime	.\polls\models.py	/^import datetime$/;"	i
+datetime	.\polls\tests.py	/^import datetime$/;"	i
+dependencies	.\polls\migrations\0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+execute_from_command_line	.\manage.py	/^    from django.core.management import execute_from_command_line$/;"	i
+extra	.\polls\admin.py	/^    extra = 3$/;"	v	class:ChoiceInline
+field	.\polls\migrations\0001_initial.py	/^            field=models.ForeignKey(to='polls.Question'),$/;"	v	class:Migration
+fields	.\polls\migrations\0001_initial.py	/^            fields=[$/;"	v	class:Migration
+generic	.\polls\views.py	/^from django.views import generic$/;"	i
+get_object_or_404	.\polls\views.py	/^from django.shortcuts import render, get_object_or_404$/;"	i
+get_queryset	.\polls\views.py	/^    def get_queryset(self):$/;"	m	class:DetailView
+get_queryset	.\polls\views.py	/^    def get_queryset(self):$/;"	m	class:IndexView
+get_wsgi_application	.\mysite\wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+include	.\mysite\urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+list_display	.\polls\admin.py	/^    list_display = ('question_text', 'pub_date', 'was_published_recently')$/;"	v	class:QuestionAdmin
+list_filter	.\polls\admin.py	/^    list_filter = ['pub_date']$/;"	v	class:QuestionAdmin
+migrations	.\polls\migrations\0001_initial.py	/^from django.db import models, migrations$/;"	i
+model	.\polls\admin.py	/^    model = Choice$/;"	v	class:ChoiceInline
+model	.\polls\views.py	/^    model = Question$/;"	v	class:DetailView
+model	.\polls\views.py	/^    model = Question$/;"	v	class:ResultsView
+model_name	.\polls\migrations\0001_initial.py	/^            model_name='choice',$/;"	v	class:Migration
+models	.\polls\migrations\0001_initial.py	/^from django.db import models, migrations$/;"	i
+models	.\polls\models.py	/^from django.db import models$/;"	i
+name	.\polls\migrations\0001_initial.py	/^            name='Choice',$/;"	v	class:Migration
+name	.\polls\migrations\0001_initial.py	/^            name='Question',$/;"	v	class:Migration
+name	.\polls\migrations\0001_initial.py	/^            name='question',$/;"	v	class:Migration
+operations	.\polls\migrations\0001_initial.py	/^    operations = [$/;"	v	class:Migration
+options	.\polls\migrations\0001_initial.py	/^            options={$/;"	v	class:Migration
+os	.\manage.py	/^import os$/;"	i
+os	.\mysite\settings.py	/^import os$/;"	i
+os	.\mysite\wsgi.py	/^import os$/;"	i
+patterns	.\mysite\urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+patterns	.\polls\urls.py	/^from django.conf.urls import patterns, url$/;"	i
+preserve_default	.\polls\migrations\0001_initial.py	/^            preserve_default=True,$/;"	v	class:Migration
+pub_date	.\polls\models.py	/^    pub_date = models.DateTimeField('date published')$/;"	v	class:Question
+question	.\polls\models.py	/^    question = models.ForeignKey(Question)$/;"	v	class:Choice
+question_text	.\polls\models.py	/^    question_text = models.CharField(max_length=200)$/;"	v	class:Question
+render	.\polls\views.py	/^from django.shortcuts import render, get_object_or_404$/;"	i
+reverse	.\polls\tests.py	/^from django.core.urlresolvers import reverse$/;"	i
+reverse	.\polls\views.py	/^from django.core.urlresolvers import reverse$/;"	i
+search_fields	.\polls\admin.py	/^    search_fields = ['question_text']$/;"	v	class:QuestionAdmin
+sys	.\manage.py	/^import sys$/;"	i
+template_name	.\polls\views.py	/^    template_name = 'polls\/detail.html'$/;"	v	class:DetailView
+template_name	.\polls\views.py	/^    template_name = 'polls\/index.html'$/;"	v	class:IndexView
+template_name	.\polls\views.py	/^    template_name = 'polls\/results.html'$/;"	v	class:ResultsView
+test_detail_view_with_a_future_question	.\polls\tests.py	/^    def test_detail_view_with_a_future_question(self):$/;"	m	class:QuestionIndexDetailTests
+test_detail_view_with_a_past_question	.\polls\tests.py	/^    def test_detail_view_with_a_past_question(self):$/;"	m	class:QuestionIndexDetailTests
+test_index_view_with_a_future_question	.\polls\tests.py	/^    def test_index_view_with_a_future_question(self):$/;"	m	class:QuestionViewTests
+test_index_view_with_a_past_question	.\polls\tests.py	/^    def test_index_view_with_a_past_question(self):$/;"	m	class:QuestionViewTests
+test_index_view_with_future_question_and_past_question	.\polls\tests.py	/^    def test_index_view_with_future_question_and_past_question(self):$/;"	m	class:QuestionViewTests
+test_index_view_with_no_questions	.\polls\tests.py	/^    def test_index_view_with_no_questions(self):$/;"	m	class:QuestionViewTests
+test_index_view_with_two_past_questions	.\polls\tests.py	/^    def test_index_view_with_two_past_questions(self):$/;"	m	class:QuestionViewTests
+test_was_published_recently_with_future	.\polls\tests.py	/^    def test_was_published_recently_with_future(self):$/;"	m	class:QuestionMethodTests
+test_was_published_recently_with_old_question	.\polls\tests.py	/^    def test_was_published_recently_with_old_question(self):$/;"	m	class:QuestionMethodTests
+test_was_published_recently_with_recent_question	.\polls\tests.py	/^    def test_was_published_recently_with_recent_question(self):$/;"	m	class:QuestionMethodTests
+timezone	.\polls\models.py	/^from django.utils import timezone$/;"	i
+timezone	.\polls\tests.py	/^from django.utils import timezone$/;"	i
+timezone	.\polls\views.py	/^from django.utils import timezone$/;"	i
+unicode_literals	.\polls\migrations\0001_initial.py	/^from __future__ import unicode_literals$/;"	i
+url	.\mysite\urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+url	.\polls\urls.py	/^from django.conf.urls import patterns, url$/;"	i
+urlpatterns	.\mysite\urls.py	/^urlpatterns = patterns('',$/;"	v
+urlpatterns	.\polls\urls.py	/^urlpatterns = patterns('',$/;"	v
+views	.\polls\urls.py	/^from polls import views$/;"	i
+vote	.\polls\views.py	/^def vote(request, question_id):$/;"	f
+votes	.\polls\models.py	/^    votes = models.IntegerField(default=0)$/;"	v	class:Choice
+was_published_recently	.\polls\models.py	/^    def was_published_recently(self):$/;"	m	class:Question
